@@ -1,22 +1,41 @@
 # Errors
 
+Every error returned by the CrowdTangle API will assume a standard format. The API will additionally return a proper http status as well. If a `200` is returned, there was no error. 
+
 <aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
+If a <code>200</code> is returned, there was no error.
 </aside>
 
-The Kittn API uses the following error codes:
+## Error Response
+>Error Response
+
+```json
+
+{
+  "status": 401,
+  "code": 30,
+  "message": "Please supply an API token"
+}
+```
+
+Property | Type | Description
+---------|------|-------------
+code | int | The [CrowdTangle error code](https://github.com/CrowdTangle/API/wiki/Errors#errorcodes), if available.
+message | string | A human-readable message describing the error. Always returned.
+status | int | The HTTP status code, if available.
+url | string | A URL for more information, if available. 
 
 
-Error Code | Meaning
----------- | -------
-400 | Bad Request -- Your request is invalid.
-401 | Unauthorized -- Your API key is wrong.
-403 | Forbidden -- The kitten requested is hidden for administrators only.
-404 | Not Found -- The specified kitten could not be found.
-405 | Method Not Allowed -- You tried to access a kitten with an invalid method.
-406 | Not Acceptable -- You requested a format that isn't json.
-410 | Gone -- The kitten requested has been removed from our servers.
-418 | I'm a teapot.
-429 | Too Many Requests -- You're requesting too many kittens! Slow down!
-500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarily offline for maintenance. Please try again later.
+
+
+## CrowdTangle Error Codes
+
+Code | Description
+-----|------------
+20 | Unknown Parameter
+21 | Illegal Parameter Value
+22 | Missing Parameter
+30 | Missing Token
+31 | Invalid Token
+40 | Does Not Exist
+41 | Not Allowed
