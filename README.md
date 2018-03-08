@@ -9,4 +9,4 @@ My Portfolio
 - [Procedure](https://github.com/inshuu/slate/blob/master/procedure_example.jpg)
 - [Mapping Table](https://github.com/inshuu/slate/blob/master/table_example1.jpg)
 - [Workflow/Process Diagram](https://github.com/inshuu/slate/blob/master/workflow_example2.jpg)
-
+- [Writing Sample](https://github.com/inshuu/slate/blob/master/writing_sample1.jpg)
