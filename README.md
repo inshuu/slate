@@ -2,7 +2,7 @@
 My Portfolio
 ------------
 
-* **Static Site for API Documentation** — (Migrated the CrowdTangle Wiki into : ) [Slate](https://inshuu.github.io/slate/) 
+* **Static Site for API Documentation** — (Migrated the CrowdTangle Wiki into - ) [Slate](https://inshuu.github.io/slate/) 
 
 * **Print Documentation**
 - [Form/Fields Table](https://github.com/inshuu/slate/blob/master/form_fields_table_example1.jpg)
