@@ -12,3 +12,4 @@ My Portfolio
 - [Mapping Table](https://github.com/inshuu/slate/blob/master/table_example1.jpg)
 - [Workflow/Process Diagram](https://github.com/inshuu/slate/blob/master/workflow_example2.jpg)
 - [Writing Sample](https://github.com/inshuu/slate/blob/master/writing_sample1.jpg)
+- [Writing Sample 2](https://github.com/inshuu/slate/blob/master/writing_sample2.jpg)
