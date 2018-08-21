@@ -13,3 +13,4 @@ My Portfolio
 - [Workflow/Process Diagram](https://github.com/inshuu/slate/blob/master/workflow_example2.jpg)
 - [Writing Sample](https://github.com/inshuu/slate/blob/master/writing_sample1.jpg)
 - [Writing Sample 2](https://github.com/inshuu/slate/blob/master/writing_sample2.jpg)
+- [Writing Sample 3](https://github.com/inshuu/slate/blob/master/writing_sample3.jpg)
