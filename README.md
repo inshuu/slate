@@ -2,8 +2,6 @@
 My Portfolio
 ------------
 
-* **Static Site for API Documentation** — (Migrated the CrowdTangle Wiki into - ) [Slate](https://inshuu.github.io/slate/) 
-
 * **Print Documentation**
 - [Workflow-Detailed](https://github.com/inshuu/slate/blob/master/workflow(detailed).JPG)
 - [Workflow-Basic](https://github.com/inshuu/slate/blob/master/Workflow(basic).JPG)
